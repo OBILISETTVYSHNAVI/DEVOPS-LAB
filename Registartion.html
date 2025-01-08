@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+    <div class="registration-form">
+    <h2>Registration</h2>
+    <form id="registrationForm">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="Enter your name">
+                <div class="error" id="nameError"></div>
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username">
+                <div class="error" id="usernameError"></div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" placeholder="Enter your number">
+                <div class="error" id="phoneError"></div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <div class="error" id="passwordError"></div>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm your password">
+                <div class="error" id="confirmPasswordError"></div>
+            </div>
+        </div>
+        <div class="form-group gender-group">
+            <label>Gender:</label>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="prefer-not-to-say"> Prefer not to say</label>
+            <div class="error" id="genderError"></div>
+        </div>
+        <div class="form-group">
+            <button type="submit">Register</button>
+        </div>
+        <script src="Registartion.js"></script>
+    </form>
+</div>
