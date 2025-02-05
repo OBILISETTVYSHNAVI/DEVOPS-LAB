@@ -1,4 +1,5 @@
-document.getElementById("registrationForm").addEventListener("submit", function (e) {
+document.getElementById("registrationForm").addEventListener("submit", function (e)
+{
     e.preventDefault();
 
     const errors = document.querySelectorAll(".error");
