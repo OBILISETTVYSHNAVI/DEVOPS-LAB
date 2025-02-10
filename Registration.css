@@ -43,7 +43,6 @@ body {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-
 }
 
 .gender-group {
@@ -63,13 +62,13 @@ body {
 .form-group button {
     width: 100%;
     padding: 10px;
-    background:linear-gradient(to right, #6a11cb, #2533fc);
+    background: linear-gradient(to right, #6a11cb, #2533fc);
     color: white;
     cursor: pointer;
 }
 
 .form-group button:hover {
-    background:green
+    background: green;
 }
 
 .error {
