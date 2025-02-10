@@ -1,5 +1,9 @@
 document.getElementById("registrationForm").addEventListener("submit", function (e)
+<<<<<<< HEAD:Registration.js
  {
+=======
+{
+>>>>>>> c71c33e7ba37bbe9e787d2317b5e2f0e3599de6f:Registartion.js
     e.preventDefault();
     const errors = document.querySelectorAll(".error");
     errors.forEach((error) => (error.textContent = ""));
