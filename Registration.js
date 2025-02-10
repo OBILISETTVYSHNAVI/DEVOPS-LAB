@@ -30,7 +30,7 @@ document.getElementById("registrationForm").addEventListener("submit", function 
     }
 
     const phoneNumber = document.getElementById("phoneNumber").value.trim();
-    const phonePattern = /^[0-9]{10}$/;
+    const phonePattern = /^[6-9][0-9]{9}$/;
     if (!phoneNumber || !phonePattern.test(phoneNumber)) {
         document.getElementById("phoneError").textContent = "Please enter a valid 10-digit phone number.";
         isValid = false;
